@@ -1,15 +1,15 @@
 import React from 'react';
 
 
-class Host extends React.Component {
+class Callback extends React.Component {
 
   render() {
     return (
       <div>
-        Host Room
+        Callback Room
       </div>
     );
   }
 }
 
-export default Host;
+export default Callback;

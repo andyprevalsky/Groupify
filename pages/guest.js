@@ -1,7 +1,15 @@
-export default function Guest() {
+import React from 'react';
+
+
+class Guest extends React.Component {
+
+  render() {
     return (
       <div>
-        <p>This is the Guest page</p>
+        Guest Room
       </div>
     );
+  }
 }
+
+export default Guest;
